@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(107, 103, 100);
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+
+  .logo{
+    content: 'Original Text';
+    font-size: 600%;
+    animation-name: head;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes head {
+    0% {font-size:600%; opacity:1;}
+    25% {font-size:570%; opacity:0;}
+    50% {font-size:600%; opacity:1;}
+    65% {font-size:570%; opacity:0;}
+    80% {font-size:600%; opacity:1; content: "Changed Text"}
+    90% {font-size:570%; opacity:0;}
+    100% {font-size:600%;opacity:1; content: "Original Text"}
+}
+
+  .logo {
+    background-color: rgb(37, 36, 36);
+    position: absolute;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    color: white;
+    right: 5px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
+  .intro {
+    background-color:grey;
+  }
+  .button-links {
+    background-color:grey;
+  }
+
+  .photo {
+    height: 10%;
+    width: 10%;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  h2.intro-name {
+    text-align: center;
+    /* position: absolute; */
+    /* bottom: 50px; */
+    left: 20%;
+    top: 10px;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+  }
+
+  /* h4 {
+    position: absolute;
+    color: rgb(129, 119, 119);
+    bottom: 25%;
+    left: 16px;
+  } */
+
+  .text-block {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  h6 {
+    position: absolute;
+    bottom: 45%;
+    right: 20px;
+    color: gray;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* font-family: 'Brush Script MT', cursive */
+
+  h5 {
+    position: absolute;
+    bottom: 15%;
+    right: 20px;
+    color: gray;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* {
+    position: absolute;
+    bottom: 12%;
+    right: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  } */
+
+  span.border {
+    border-bottom: 5px solid black;
+    width: 100%;
+  }
